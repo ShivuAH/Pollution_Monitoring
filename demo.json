@@ -1,0 +1,71 @@
+{
+  "vehicles": {
+    "KA01-5522": {
+      "co2_ppm": 820,
+      "emission_per_km": 4.1,
+      "total_emission": 28.5,
+      "latitude": 12.9719,
+      "longitude": 77.5937,
+      "timestamp": 1710001100000,
+      "route": "MG Road → Brigade Road",
+      "status": "Normal"
+    },
+    "KA02-8876": {
+      "co2_ppm": 1600,
+      "emission_per_km": 7.4,
+      "total_emission": 54.0,
+      "latitude": 12.9731,
+      "longitude": 77.5962,
+      "timestamp": 1710001200000,
+      "route": "Indiranagar → Domlur",
+      "status": "Moderate"
+    },
+    "KA05-3341": {
+      "co2_ppm": 2450,
+      "emission_per_km": 12.8,
+      "total_emission": 94.6,
+      "latitude": 12.9755,
+      "longitude": 77.5988,
+      "timestamp": 1710001300000,
+      "route": "Silk Board → Electronic City",
+      "status": "High"
+    }
+  },
+
+  "routes": {
+    "KA01-5522": {
+      "1": { "lat": 12.9715, "lon": 77.5932, "co2": 750 },
+      "2": { "lat": 12.9717, "lon": 77.5935, "co2": 820 },
+      "3": { "lat": 12.9720, "lon": 77.5939, "co2": 840 }
+    },
+    "KA02-8876": {
+      "1": { "lat": 12.9730, "lon": 77.5960, "co2": 1500 },
+      "2": { "lat": 12.9732, "lon": 77.5963, "co2": 1600 },
+      "3": { "lat": 12.9735, "lon": 77.5968, "co2": 1700 }
+    },
+    "KA05-3341": {
+      "1": { "lat": 12.9750, "lon": 77.5984, "co2": 2300 },
+      "2": { "lat": 12.9754, "lon": 77.5987, "co2": 2400 },
+      "3": { "lat": 12.9758, "lon": 77.5991, "co2": 2500 }
+    }
+  },
+
+  "alerts": {
+    "alert_mod_1": {
+      "vehicle": "KA02-8876",
+      "co2": 1600,
+      "time": 1710001200000,
+      "location": "12.9731, 77.5962",
+      "status": "Moderate",
+      "note": "Threshold nearing"
+    },
+    "alert_high_1": {
+      "vehicle": "KA05-3341",
+      "co2": 2450,
+      "time": 1710001300000,
+      "location": "12.9755, 77.5988",
+      "status": "High",
+      "note": "Emission Limit Exceeded — Email Sent"
+    }
+  }
+}
